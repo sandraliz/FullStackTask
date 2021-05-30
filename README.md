@@ -3,21 +3,22 @@ A basic web-application using Reactjs, Nodejs, Express and Postgresql.
 For backend-
 Navigate to the folder
 
-   cd server/
+    cd server/
+    
 Run the commands
 
-   npm install
-   npm start
+    npm install
+    npm start
 Now the api is running at http://127.0.0.1:5000/
 
 Set up a postgresql database locally.
 
 
-   CREATE DATABASE customerdb;
+    CREATE DATABASE customerdb;
 
    
 
-   CREATE TABLE customer(
+    CREATE TABLE customer(
 
     	customer_id SERIAL PRIMARY KEY,
 
@@ -39,11 +40,11 @@ For front-end
 
 Navigate to the client folder
 
-cd webapp/
+    cd webapp/
 Run the commands
 
-  npm install
-  npm start
+    npm install
+    npm start
   
 Now, front-end is running at http://127.0.0.1:3000/
 
